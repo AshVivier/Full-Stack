@@ -4,8 +4,9 @@
   "description": "Create a full stack web app from scratch",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --watchALL",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server",
+    "start": "node server",
+    "test": "jest --watchALL"
   },
   "repository": {
     "type": "git",
